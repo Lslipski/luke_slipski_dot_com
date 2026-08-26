@@ -1,11 +1,16 @@
 ---
-title: "main"
+title: ""
+toc-depth: 1
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        .quarto-title-block .quarto-title { text-align: center; }
+        header#title-block-header.quarto-title-block { text-align: center; }
+        </style>
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+::: center
+### Soliloquy at sunset from the balustrade of her upraised city terrace brought solace, while the words rendered panic in the stomach of the capistrate thief below.
+:::
