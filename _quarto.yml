@@ -10,6 +10,7 @@ website:
     right:
       - writing.qmd
       - music.qmd
+      - power_hours.qmd
   page-footer: "Proudly Maintained by Dunce Analytics" 
 
 format:
