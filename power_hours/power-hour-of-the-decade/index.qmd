@@ -13,17 +13,14 @@ This power hour is special in the sense that it has a theme other than just 'scr
 \
 
 ## Tunes
-<iframe 
-src="https://drive.google.com/file/d/1otmgONF9UanPRxuLmmKvqv0qbhWTqL68/preview" 
-width="800" 
-height="320">
+
+<iframe src="https://drive.google.com/file/d/1otmgONF9UanPRxuLmmKvqv0qbhWTqL68/preview" width="800" height="320">
+
 </iframe>
 
-
 ## Spoilers
-<iframe 
-width = 800px
-height = 700px
-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpnn8CTFCfbz69lPJZ3HrlOjbOY8w1epN-Dg8DBT9b3nknDkTTmvRk8KvyvxKnJQ/pubhtml?widget=true&amp;
+
+
+<iframe width="800px" height="700px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpnn8CTFCfbz69lPJZ3HrlOjbOY8w1epN-Dg8DBT9b3nknDkTTmvRk8KvyvxKnJQ/pubhtml?widget=true&amp;
 headers=false">
 </iframe>
