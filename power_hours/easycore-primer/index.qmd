@@ -1,0 +1,38 @@
+---
+title: "Easycore Primer"
+author: "Luke Slipski"
+date: "2021-02-19"
+image: "snowman_sun.jpg"
+categories: 
+  - "Primer"
+---
+
+![](snowman_sun.jpg){width="200;" height="500"}\
+
+\
+
+**Run time:** 18:09
+
+**Songs:** 15
+
+I mashed some of my favorite easycore songs together back in 2021 I think. It's just some bangers for people to dip their toes in the genre. I've used it a lot for short stationary bike rides.
+
+
+
+## Tunes
+
+<iframe 
+src="https://drive.google.com/file/d/11uv0xbSFTDBkAqHK8RH-QVZ5pO-3mREn/preview" 
+width="800" 
+height="320">
+</iframe>
+
+
+
+## Spoilers
+
+<iframe 
+width="800px" 
+height="700px" 
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwvmXno11bFZ5fHD6VWKRbfnwno7N6iNoehBjlqcaCOwXNB9OuZlQ38CrvuJjUHJ6FrK49nG2TGsmI/pubhtml?widget=true&amp;headers=false">
+</iframe>

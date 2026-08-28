@@ -7,7 +7,7 @@ categories:
   - "Full Hour"
 ---
 
-![](all_the_way_down.jpg)\
+![](all_the_way_down.jpg){width="200;" height="500"}\
 
 **Runtime:** 1:05:09
 

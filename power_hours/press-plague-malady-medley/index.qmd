@@ -7,9 +7,8 @@ categories:
   - "Full Hour"
 ---
 
-![](covid_test.jpg){width="200;" height="500"}
+![](covid_test.jpg){width="200;" height="500"}\
 
-\
 
 **Run time:** 1:01:25
 

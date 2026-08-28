@@ -7,7 +7,7 @@ categories:
   - "Full Hour"
 ---
 
-![](welcome_to_the_future.jpg)\
+![](welcome_to_the_future.jpg){width="200;" height="500"}\
 
 This power hour is special in the sense that it has a theme other than just 'scream along'. For that, all credit goes to my friend Chris W. who brought the idea of a decade-themed playlist and complementary party to my attention. Chris and I went through each year from 2010-2019 and chose 19 of the best songs. We then sent out a survey to 96 of our friends and asked them to rank the 19 songs and suggest songs we may have missed. That all led to this variably valenced, pop and hip hop laden hour down memory lane. We hope you love it!
 
