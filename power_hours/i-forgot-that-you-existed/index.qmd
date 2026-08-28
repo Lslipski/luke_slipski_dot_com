@@ -22,7 +22,7 @@ Luke
 
 ## Tunes
 
-<iframe src="https://drive.google.com/file/d/1MuZxAJFAzHMFPzEEuEpfziBNq2VByCm3/preview" width="640" height="480">
+<iframe src="https://drive.google.com/file/d/1MuZxAJFAzHMFPzEEuEpfziBNq2VByCm3/preview" width="800" height="320">
 
 </iframe>
 
