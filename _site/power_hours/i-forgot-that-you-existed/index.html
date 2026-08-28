@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luke Slipski">
+<meta name="dcterms.date" content="2020-12-31">
 
-<title>Power Hours</title>
+<title>I Forgot That You Existed</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,26 +31,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/brain.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e482fa662cf565fe2287a5e44d9a5693.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/brain.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e482fa662cf565fe2287a5e44d9a5693.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,67 +76,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -152,21 +94,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Luke Slipski</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./writing.html"> 
+    <a class="nav-link" href="../../writing.html"> 
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./music.html"> 
+    <a class="nav-link" href="../../music.html"> 
 <span class="menu-text">The Overnight Lows</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./power_hours.html" aria-current="page"> 
+    <a class="nav-link" href="../../power_hours.html"> 
 <span class="menu-text">Power Hours</span></a>
   </li>  
 </ul>
@@ -181,21 +123,43 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RnVsbCUyMEhvdXI=">Full Hour <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tunes" id="toc-tunes" class="nav-link active" data-scroll-target="#tunes">Tunes</a></li>
+  <li><a href="#spoilers" id="toc-spoilers" class="nav-link" data-scroll-target="#spoilers">Spoilers</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Power Hours</h1>
-</div>
+<h1 class="title">I Forgot That You Existed</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Full Hour</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luke Slipski </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 31, 2020</p>
+    </div>
+  </div>
   
     
   </div>
@@ -205,117 +169,28 @@ window.Quarto = {
 </header>
 
 
-<p><br>
+<p><img src="moody.png" height="500"><br>
 </p>
-<div class="center">
-<p><img src="images/power-hour.jpg" height="500"></p>
-</div>
-<p><br>
-</p>
-<p>Historically, a power hour is a convivial event where a group of people listen to a playlist consisting of sixty, one-minute song clips and take a drink every time they hear the song change. Typically, mirth and scream-singing ensue. But power hour playlists can be so much more than a vessel for imbibing firewater. The playlist can be themed to fit a specific occasion. A power pop power hour can get you through a grueling and otherwise agonizingly monotonous spin session at the gym, where a regular playlist leaves you bored and restive halfway through each song. A road-trip-sing-along themed power hour can pep up a car full of listless friends in their second-to-last hour of a long trip after they’ve grown tired of podcasts and random song picks, but before the natural excitement of the last hour sets in. Power hours are the perfect solution when attention spans are low but the need for motivation is high. These playlists have brought me a ton of joy to build and listen to for over a decade. I hope you can browse the catalog and find something to celebrate to.</p>
-<p><br>
-</p>
+<p><strong>Run Time:</strong> 55:46</p>
+<p><strong>Songs:</strong> 45</p>
+<p>Taylor Swift is now a billionaire class traitor. Prior to her unapologetically sloppy and disappointing recent albums, she used to write a lot of songs about other people. The first half of this playlist is a tribute in memoriam to the careers of artists about whom Taylor has written songs. The second half of the playlist is pure, unadulterated Taylor bangers. I hope you love it.</p>
+<p>A brief note on the pacing of this playlist is in order. I’ll admit, I don’t know exactly how to organize Taylor’s music across the genres she’s written in, and some of the song sequences reflect this uncertainty. At times during this hour I feel pulled in multiple directions with a building rhythmic chaos that ultimately resolves. Hopefully the pay off is worth it.</p>
+<p>Forevermore yours,<br>
+Luke</p>
+<section id="tunes" class="level2">
+<h2 class="anchored" data-anchor-id="tunes">Tunes</h2>
+<iframe src="https://drive.google.com/file/d/1MuZxAJFAzHMFPzEEuEpfziBNq2VByCm3/preview" width="640" height="480">
+</iframe>
+</section>
+<section id="spoilers" class="level2">
+<h2 class="anchored" data-anchor-id="spoilers">Spoilers</h2>
+<iframe width="800px" height="700px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgWhhj8ZsMHnylMpx1yq_U3UWI7LyCs_-e92_lgKhOd3-foDVrIVTRiEsr5rnO6g/pubhtml?widget=true&amp;headers=false">
+</iframe>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RnVsbCUyMEhvdXI=" data-listing-date-sort="1609401600000" data-listing-file-modified-sort="1787949528168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-<div class="thumbnail"><a href="./power_hours/i-forgot-that-you-existed/index.html" class="no-external">
-
-<img loading="lazy" src="./power_hours/i-forgot-that-you-existed/covid_test.jpg" class="thumbnail-image" style="height: 10wh;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./power_hours/i-forgot-that-you-existed/index.html" class="no-external">I Forgot That You Existed</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RnVsbCUyMEhvdXI='); return false;">Full Hour</div>
-
-</div>
-<div class="delink listing-description"><a href="./power_hours/i-forgot-that-you-existed/index.html" class="no-external">
-<br>
-
-</a></div>
-</div>
-<div class="metadata">
-<a href="./power_hours/i-forgot-that-you-existed/index.html" class="no-external">
-<div class="listing-date">
-Dec 31, 2020
-</div>
-<div class="listing-author">
-Luke Slipski
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RnVsbCUyMEhvdXI=" data-listing-date-sort="1591340400000" data-listing-file-modified-sort="1787948763979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
-<div class="thumbnail"><a href="./power_hours/press-plague-malady-medley/index.html" class="no-external">
-
-<img loading="lazy" src="./power_hours/press-plague-malady-medley/covid_test.jpg" class="thumbnail-image" style="height: 10wh;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./power_hours/press-plague-malady-medley/index.html" class="no-external">Press Plague: The Malady Medley</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RnVsbCUyMEhvdXI='); return false;">Full Hour</div>
-
-</div>
-<div class="delink listing-description"><a href="./power_hours/press-plague-malady-medley/index.html" class="no-external">
-<br>
-
-</a></div>
-</div>
-<div class="metadata">
-<a href="./power_hours/press-plague-malady-medley/index.html" class="no-external">
-<div class="listing-date">
-Jun 5, 2020
-</div>
-<div class="listing-author">
-Luke Slipski
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RnVsbCUyMEhvdXI=" data-listing-date-sort="1578643200000" data-listing-file-modified-sort="1787948442412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<div class="thumbnail"><a href="./power_hours/power-hour-of-the-decade/index.html" class="no-external">
-
-<img loading="lazy" src="./power_hours/power-hour-of-the-decade/welcome_to_the_future.jpg" class="thumbnail-image" style="height: 10wh;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./power_hours/power-hour-of-the-decade/index.html" class="no-external">The Power Hour of the Decade</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RnVsbCUyMEhvdXI='); return false;">Full Hour</div>
-
-</div>
-<div class="delink listing-description"><a href="./power_hours/power-hour-of-the-decade/index.html" class="no-external">
-This power hour is special in the sense that it has a theme other than just ‘scream along’. For that, all credit goes to my friend Chris W. who brought the idea of a…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./power_hours/power-hour-of-the-decade/index.html" class="no-external">
-<div class="listing-date">
-Jan 10, 2020
-</div>
-<div class="listing-author">
-Luke Slipski
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
