@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "LS"
 toc-depth: 1
 format:
   html:
@@ -13,4 +14,9 @@ format:
 
 ::: center_page
 ### Soliloquy at sunset from the balustrade of her upraised city terrace brought solace, while the words rendered panic in the stomach of the capistrate thief below.
+
+<a
+href="https://github.com/Lslipski/Grand_Sentence">
+<i class="bi bi-github"></i>
+</a>
 :::
