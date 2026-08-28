@@ -2,7 +2,7 @@
 title: "'Regarding the Moat'"
 author: "Luke Slipski"
 date: "2025-01-02"
-image: "seabright-beach.jpg"
+image: "seabright-beach.png"
 categories:
   - "Poetry"
 ---
